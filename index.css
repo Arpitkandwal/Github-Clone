@@ -207,12 +207,29 @@ body.dark-mode .repository-card {
 }
 
 /* Responsive styles for smaller screens */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
   /* .heading {
     margin-left: 10px
   } */
-  .rounded-icon {
-    margin-left: 5px;
+  .rounded-icon  {
+  margin-left: 5px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+
+  }
+
+  #search-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+  }
+
+  .profile-text {
+    margin-top: 70px;
   }
 
   .repository-container {
